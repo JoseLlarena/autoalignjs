@@ -219,11 +219,11 @@ R:ə   = 1
 These statistics are first smoothed using [good-turing](https://en.wikipedia.org/wiki/Good%E2%80%93Turing_frequency_estimation) estimation to avoid zero counts. 
 Then they are used to estimate the strength of association between the symbols in the left (up) and right (down) alphabets (letters and phonemes in this example). This strength is measured with a normalised [pointwise mutual information](https://en.wikipedia.org/wiki/Pointwise_mutual_information)(NPMI) (__x__ is left and __y__ is right):
 
-![npmi](docs/npmi.svg)
+![npmi](https://github.com/JoseLlarena/autoalignjs/raw/master/docs/npmi.svg?sanitize=true)
 
 where *__pmi(x;y)__* is
 
-![pmi](docs/pmi.svg)
+![pmi](https://github.com/JoseLlarena/autoalignjs/raw/master/docs/pmi.svg?sanitize=true)
 
 and *__h(x, y)__* is the negative logarithm of the joint probability of the left and right symbols
 
