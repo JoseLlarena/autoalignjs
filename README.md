@@ -289,6 +289,10 @@ and in the browser `<script src='autoalign.js'></script>`
 
 _In order to autoalign Britfone, the word column needs to be processed such that letters are separated by whitespace_
 
+## Changelog
+
+see [Changelog](https://github.com/JoseLlarena/autoalignjs/blob/master/CHANGELOG.md)
+
 ## License
 
 MIT © [Jose Llarena](https://www.npmjs.com/~josellarena)
