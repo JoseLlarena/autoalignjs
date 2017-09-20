@@ -1,0 +1,50 @@
+{
+  "name": "autoalign",
+  "version": "1.0.0",
+  "description": "automatic alignment of sequences",
+  "main": "autoalign.js",
+  "bin": {
+    "autoalign": "./autoalign-cli.js"
+  },
+  "scripts": {
+    "test": "mocha --ui=bdd --timeout=60000 --require mocha-clean"
+  },
+  "keywords": [
+    "alignment",
+    "sequence",
+    "unsupervised",
+    "mutual information"
+  ],
+  "author": "Jose Llarena",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^7.3.0",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-jsdoc3": "^1.0.1",
+    "gulp-mocha": "^4.3.1",
+    "gulp-print": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "minami": "^1.2.3",
+    "mocha": "^3.5.0",
+    "mocha-clean": "^1.0.0",
+    "mocha-testcheck": "^1.0.0-rc.0",
+    "testcheck": "^1.0.0-rc.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
