@@ -1,6 +1,6 @@
 {
   "name": "autoalign",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "automatic alignment of sequences",
   "main": "autoalign.js",
   "bin": {
