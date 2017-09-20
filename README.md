@@ -32,7 +32,7 @@ _autoalign_ learns to align a list of paired but unaligned sequences by alternat
 
 [Further details](#more-background)
 
-[Full API documentation](https://josellarena.github.io/autaoalignjs/global.html)
+[Full API documentation](https://josellarena.github.io/autoalignjs/module-autoalign.html)
 
 
 ## Install
@@ -185,7 +185,7 @@ __Browser__
 `autoalign` will be available as a global
 
 
-[Full API documentation](https://josellarena.github.io/symlarjs/global.html)
+[Full API documentation](https://josellarena.github.io/autoalignjs/module-autoalign.html)
 
 ## <a name="more-background"></a>Background
 
